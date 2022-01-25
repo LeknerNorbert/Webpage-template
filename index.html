@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Webpage template</title>
+    <script src="https://kit.fontawesome.com/2a26f72a16.js" crossorigin="anonymous"></script>
+</head>
+<body>  
+    <nav class="flex-container column">
+        <div class="nav-head flex-container row flex-justify-between">
+            <span class="brand">
+                <a href="#">Lekner Norbert</a><br>
+                Webfejlesztő, programozó 
+            </span>
+            <button onclick="nav_change()"><i class="fas fa-bars"></i></button>
+        </div>
+        <ul>
+            <li><i class="fas fa-home m-list-icon"></i><a href="#">Főoldal</a></li>
+            <li><i class="fas fa-user-circle m-list-icon"></i><a href="#">Bemutatkozás</a></li>
+            <li><i class="fas fa-project-diagram m-list-icon"></i><a href="#" class="submenu-button">Projektek</a></li>
+            <li><i class="far fa-address-book m-list-icon"></i><a href="#">Elérhetőségek</a></li>
+        </ul>
+    </nav>
+    <div class="flex-container">
+        <div class="nav-hack"></div>
+        <div class="page-content">
+            <header class="flex-container column flex-justify-center flex-align-center">
+                <div class="cube">
+                    <div class="c-front"></div>
+                    <div class="c-back"></div>
+                    <div class="c-right"></div>
+                    <div class="c-left"></div>
+                    <div class="c-top"></div>
+                    <div class="c-bottom"></div>
+                </div>
+            </header>
+
+            <footer>
+                <script src="js/main.js"></script>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

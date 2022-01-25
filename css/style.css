@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: #e8e8e8;
+    color: #222
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0 auto
+}
+
+.flex-container {
+    display: flex
+}
+
+.flex-justify-center {
+    justify-content: center
+}
+
+.flex-justify-between {
+    justify-content: space-between
+}
+
+.flex-justify-evenly {
+    justify-content: space-evenly
+}
+
+.row {
+    flex-flow: row nowrap
+}
+
+.column {
+    flex-flow: column nowrap
+}
+
+.flex-align-center {
+    align-items: center
+}
+
+.page-content {
+    width: 100%;
+}
+
+.nav-hack {
+    min-width: 70.4px;
+    height: 20px;
+    transition: .2s;
+}
+
+.nav-h-big {
+    min-width: 280px
+}
+
+.brand a{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #222;
+    font-weight: 700
+}
+
+.brand {
+    align-self: center;
+}
+
+nav {
+    position: fixed;
+    width: 280px;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #fff;
+    top: 0;
+    left: calc(-280px + 4.4rem);
+    transition: .2s
+}
+
+.nav-visible {
+    left: 0;
+}
+
+.nav-head {
+    width: 248px;
+    height: 122px;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #222;
+    display: inline-block;
+    margin-top: 1rem
+}
+
+nav button {
+    width: 2.4rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: 2px solid #222;
+    border-radius: .4rem;
+    padding-top: 2px;
+    cursor: pointer
+}
+
+.m-list-icon {
+    font-size: 1.2rem;
+    width: 2rem;
+}
+
+header {
+    height: 100vh;
+    background: #e8e8e8;
+    perspective: 500px;
+}
+
+/* 3D Cube */
+
+/* Közepes felbontás (tablet) */
+
+@media screen and (min-width: 768px) {
+    
+}
+
+/* Nagy felbontású nézet (asztali számítógép) */
+
+@media screen and (min-width: 992px) {
+    
+}
